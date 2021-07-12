@@ -1,0 +1,31 @@
+header{
+    margin:10px 0;
+    display: grid;
+    grid-template-columns: 12% 43% 43%;
+    grid-auto-rows:minmax(150px,auto);
+    grid-gap:10px;
+}
+
+.logo{
+    width:150px;
+    height:150px;
+    background-color: rgb(191, 187, 183);
+    border-radius: 75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > img{
+    width:120px;
+    height:120px;
+}
+.ads{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads > img{
+    width:500px;
+    height:100px;
+}
